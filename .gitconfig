@@ -1,0 +1,11 @@
+[alias]
+st = status
+logg = log --graph --decorate --oneline --all
+
+[user]
+	name = makerdrone
+	email = makerdrone@gmail.com
+[core]
+	editor = vim
+	editor = gedit
+	editor = pluma

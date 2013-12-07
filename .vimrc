@@ -57,10 +57,16 @@ let g:tagbar_sort = 0
 "map <F5> :!python
 
 " Powerline
-set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
+"set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
+"set laststatus=2
+"let g:ambiwidth="single"
+"let g:Powerline_symbols = "fancy"
+
+" Airline
+let g:airline#extensions#tagbar#enabled=1
 set laststatus=2
-let g:ambiwidth="single"
-let g:Powerline_symbols = "fancy"
+set ttimeoutlen=50
+set t_Co=256
 
 " Flake8
 autocmd BufWritePost *.py call Flake8()

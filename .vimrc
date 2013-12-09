@@ -64,7 +64,7 @@ let g:tagbar_sort = 0
 
 " Airline
 let g:airline#extensions#tagbar#enabled=1
-let g:airline_powerline_fonts=1
+let g:airline_powerline_fonts=0
 set laststatus=2
 set ttimeoutlen=50
 set t_Co=256

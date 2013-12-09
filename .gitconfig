@@ -8,4 +8,3 @@ logg = log --graph --decorate --oneline --all
 [core]
 	editor = vim
 	editor = gedit
-	editor = pluma

@@ -7,5 +7,3 @@ logg = log --graph --decorate --oneline --all
 	email = makerdrone@gmail.com
 [core]
 	editor = vim
-	editor = gedit
-	editor = pluma

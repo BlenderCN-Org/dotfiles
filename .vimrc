@@ -11,6 +11,7 @@ set mouse=nicrv
 set ttymouse=xterm2
 set background=dark
 
+colorscheme nature
 
 " set smartindent
 " set tabstop=4

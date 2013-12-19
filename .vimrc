@@ -11,7 +11,9 @@ set mouse=nicrv
 set ttymouse=xterm2
 set background=dark
 
-colorscheme nature
+syntax on	"syntax highlighting
+filetype plugin indent on	"enable loading indent file for filetype
+autocmd FileType python set omnifunc=pythoncomplete#Complete
 
 " set smartindent
 " set tabstop=4

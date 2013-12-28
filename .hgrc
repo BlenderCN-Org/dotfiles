@@ -11,7 +11,7 @@ eol = auto
 
 [ui]
 username = drd@DRDEarth
-editor = gedit
+editor = vim 
 
 [trusted]
 users = drd, root

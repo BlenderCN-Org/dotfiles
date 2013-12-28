@@ -9,3 +9,4 @@ logg = log --graph --decorate --oneline --all
 	editor = vim
 	editor = gedit
 	editor = pluma
+	autocrlf = input

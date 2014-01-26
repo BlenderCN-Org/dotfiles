@@ -16,3 +16,6 @@ editor = vim
 [trusted]
 users = drd, root
 groups = drd, root
+
+[extensions]
+graphlog = 

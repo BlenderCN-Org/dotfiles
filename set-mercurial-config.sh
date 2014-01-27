@@ -16,6 +16,6 @@ groups = $USER
 graphlog =
 "
 
-mv ~/.hgrc ~/.hgrc-old
-echo "$hgrcContent" > ~/.hgrc
+mv hgrc hgrc-old
+echo "$hgrcContent" > hgrc
 

@@ -8,7 +8,7 @@
 
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
-files="vimrc vim tmux.conf gitconfig"    # list of files/folders to symlink in homedir
+files="vimrc vim tmux.conf gitconfig hgrc"    # list of files/folders to symlink in homedir
 
 ##########
 
@@ -30,7 +30,12 @@ for file in $files; do
     ln -s $dir/$file ~/.$file
 done
 
-# set hgrc configuration
-echo "Creating mercurial configuration"
-set-mercurial-config.sh
+# set gitconfig and hgrc configuration
+echo "Creating git configuration"
+./set-git-config.sh
 echo "...done"
+
+echo "Creating mercurial configuration"
+./set-mercurial-config.sh
+echo "...done"
+

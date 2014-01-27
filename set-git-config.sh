@@ -8,7 +8,7 @@ if [ $USER != "drd" ] && [ $USER != "pi" ]; then
 	gitemail=$HOSTNAME
 fi
 
-if [ $USER = "Clouway" ]; then
+if [ $USER = "clouway" ]; then
 	gituser="stefan.dimitrov"
 	gitemail="stefan.dimitrov.009@gmail.com"
 fi

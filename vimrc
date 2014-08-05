@@ -78,3 +78,7 @@ let g:autoclose_on = 0
 " Smart <Home> key
 noremap <expr> <silent> <Home> col('.') == match(getline('.'),'\S')+1 ? '0' : '^'
 imap <silent> <Home> <C-O><Home>
+
+" Snipmate
+ino <c-j> <c-r>=snipMate#TriggerSnippet()<cr>
+snor <c-j> <esc>i<right><c-r>=snipMate#TriggerSnippet()<cr>

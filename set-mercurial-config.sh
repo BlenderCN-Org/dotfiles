@@ -9,8 +9,8 @@ username = $USER@$HOSTNAME
 editor = vim
 
 [trusted]
-users = $USER
-groups = $USER
+users = $USER,root
+groups = $USER,root
 
 [extensions]
 graphlog =

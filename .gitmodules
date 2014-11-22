@@ -22,3 +22,6 @@
 [submodule "vim/bundle/snipmate"]
 	path = vim/bundle/snipmate
 	url = https://github.com/garbas/vim-snipmate.git
+[submodule "blender_addons/amaranth"]
+	path = blender_addons/amaranth
+	url = git@github.com:venomgfx/amaranth.git

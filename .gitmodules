@@ -25,3 +25,6 @@
 [submodule "blender_addons/amaranth"]
 	path = blender_addons/amaranth
 	url = git@github.com:venomgfx/amaranth.git
+[submodule "blender_addons/easy-logging"]
+	path = blender_addons/easy-logging
+	url = git@github.com:Nikos-Prinios/easy-logging.git

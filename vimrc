@@ -1,7 +1,29 @@
+set nocompatible
 filetype off
-call pathogen#infect()
-"call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+
+" ----- Making vim look good
+Plugin 'blueshirts/darcula'
+Plugin 'bling/vim-airline'
+
+" ----- Working with git
+Plugin 'tpope/vim-fugitive'
+Plugin 'airblade/vim-gitgutter'
+
+" ----- Dev tools
+Plugin 'Raimondi/delimitMate'
+Plugin 'kien/ctrlp.vim'
+Plugin 'vim-scripts/a.vim'
+
+
+call vundle#end()
+filetype plugin indent on	"enable loading indent file for filetype
 
 set foldmethod=indent
 set foldlevel=99
@@ -11,8 +33,9 @@ set mouse=nicrv
 set ttymouse=xterm2
 set background=dark
 
-syntax on	"syntax highlighting
-filetype plugin indent on	"enable loading indent file for filetype
+syntax enable	"syntax highlighting
+colorscheme darcula
+
 autocmd FileType python set omnifunc=pythoncomplete#Complete
 
 " set smartindent

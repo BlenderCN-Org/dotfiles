@@ -18,8 +18,11 @@ Plugin 'airblade/vim-gitgutter'
 
 " ----- Dev tools
 Plugin 'Raimondi/delimitMate'
+Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
 Plugin 'vim-scripts/a.vim'
+Plugin 'scrooloose/syntastic'
+Plugin 'klen/python-mode'
 
 
 call vundle#end()

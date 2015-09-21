@@ -3,13 +3,13 @@
 gituser="makerdrone"
 gitemail="makerdrone@gmail.com"
 
-if [ $USER != "drd" ] && [ $USER != "pi" ]; then
+if [ $USER != "pi" ]; then
 	gituser=$USER
 	gitemail=$HOSTNAME
 fi
 
-if [ $USER = "clouway" ]; then
-	gituser="stefan.dimitrov"
+if [ $USER = "drd" ] || [$USER = "stefan-d"]; then
+	gituser="stefan-dimitrov"
 	gitemail="stefan.dimitrov.009@gmail.com"
 fi
 

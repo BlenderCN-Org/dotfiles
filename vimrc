@@ -19,6 +19,7 @@ Plugin 'airblade/vim-gitgutter'
 " ----- Dev tools
 Plugin 'Raimondi/delimitMate'
 Plugin 'scrooloose/nerdtree'
+Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'kien/ctrlp.vim'
 Plugin 'vim-scripts/a.vim'
 Plugin 'scrooloose/syntastic'
@@ -70,7 +71,8 @@ let g:pydiction_location = '~/.vim/bundle/pydiction/complete-dict'
 " Autostart NERDTree
 "autocmd VimEnter * NERDTree
 "autocmd VimEnter * wincmd p
-map <F3> :NERDTree<CR>
+"map <F3> :NERDTree<CR>
+map <F3> <plug>NERDTreeTabsToggle<CR>
 let g:NERDTreeWinPos = "right"
 
 

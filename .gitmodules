@@ -4,9 +4,6 @@
 [submodule "blender_addons/easy-logging"]
 	path = blender_addons/easy-logging
 	url = git@github.com:Nikos-Prinios/easy-logging.git
-[submodule "vim/bundle/Vundle.vim"]
-	path = vim/bundle/Vundle.vim
-	url = git@github.com:VundleVim/Vundle.vim.git
 [submodule "blender_addons/blender-script-watcher"]
 	path = blender_addons/blender-script-watcher
 	url = git@github.com:wisaac407/blender-script-watcher.git

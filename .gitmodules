@@ -7,3 +7,6 @@
 [submodule "vim/bundle/Vundle.vim"]
 	path = vim/bundle/Vundle.vim
 	url = git@github.com:VundleVim/Vundle.vim.git
+[submodule "blender_addons/blender-script-watcher"]
+	path = blender_addons/blender-script-watcher
+	url = git@github.com:wisaac407/blender-script-watcher.git

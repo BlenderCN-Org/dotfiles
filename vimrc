@@ -35,10 +35,12 @@ set number
 set ruler
 set mouse=nicrv
 set ttymouse=xterm2
-set background=dark
 
 syntax enable	"syntax highlighting
+
 colorscheme darcula
+autocmd colorscheme * hi Normal ctermbg=none
+autocmd colorscheme * hi NonText ctermbg=none
 
 autocmd FileType python set omnifunc=pythoncomplete#Complete
 
